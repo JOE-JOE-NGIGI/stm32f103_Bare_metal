@@ -1,0 +1,9 @@
+dht11_lcd_i2c\system_stm32f10x.o: RTE\Device\STM32F103C8\system_stm32f10x.c
+dht11_lcd_i2c\system_stm32f10x.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
+dht11_lcd_i2c\system_stm32f10x.o: .\RTE\_DHT11_LCD_i2c\RTE_Components.h
+dht11_lcd_i2c\system_stm32f10x.o: ../Drivers/CMSIS/Include/core_cm3.h
+dht11_lcd_i2c\system_stm32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+dht11_lcd_i2c\system_stm32f10x.o: ../Drivers/CMSIS/Include/cmsis_version.h
+dht11_lcd_i2c\system_stm32f10x.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+dht11_lcd_i2c\system_stm32f10x.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+dht11_lcd_i2c\system_stm32f10x.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h

@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"dht11_lcd_i2c\startup_stm32f103xb.o"
+"dht11_lcd_i2c\main.o"
+"dht11_lcd_i2c\stm32f1xx_it.o"
+"dht11_lcd_i2c\stm32f1xx_hal_msp.o"
+"dht11_lcd_i2c\i2c-lcd.o"
+"dht11_lcd_i2c\stm32f1xx_hal_gpio_ex.o"
+"dht11_lcd_i2c\stm32f1xx_hal_i2c.o"
+"dht11_lcd_i2c\stm32f1xx_hal.o"
+"dht11_lcd_i2c\stm32f1xx_hal_rcc.o"
+"dht11_lcd_i2c\stm32f1xx_hal_rcc_ex.o"
+"dht11_lcd_i2c\stm32f1xx_hal_gpio.o"
+"dht11_lcd_i2c\stm32f1xx_hal_dma.o"
+"dht11_lcd_i2c\stm32f1xx_hal_cortex.o"
+"dht11_lcd_i2c\stm32f1xx_hal_pwr.o"
+"dht11_lcd_i2c\stm32f1xx_hal_flash.o"
+"dht11_lcd_i2c\stm32f1xx_hal_flash_ex.o"
+"dht11_lcd_i2c\stm32f1xx_hal_exti.o"
+"dht11_lcd_i2c\stm32f1xx_hal_tim.o"
+"dht11_lcd_i2c\stm32f1xx_hal_tim_ex.o"
+"dht11_lcd_i2c\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "DHT11_LCD_i2c\DHT11_LCD_i2c.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "DHT11_LCD_i2c.map" -o DHT11_LCD_i2c\DHT11_LCD_i2c.axf
