@@ -13,7 +13,7 @@ int main ()
 		GPIOC->CRH |= (1<<21);
 		
 		while(1) {
-			GPIOC->ODR ^= (1<<13);
+			GPIOC->ODR ^= (1<<13); //Toggle bit 13
 			
 			
 		}
